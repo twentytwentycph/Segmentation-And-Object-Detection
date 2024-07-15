@@ -1,0 +1,11 @@
+numpy
+torch
+torchvision
+matplotlib
+opencv-python
+ipython
+google-colab
+ultralytics
+torchmetrics
+tqdm
+segment-anything @ git+https://github.com/facebookresearch/segment-anything.git
