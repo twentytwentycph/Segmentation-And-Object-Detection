@@ -50,9 +50,28 @@ The YOLOv8 + SAM approach showed the best performance, with the highest mean F1 
 - tqdm
 
 ## Usage
-(Include brief instructions on how to run your code, e.g., main scripts to execute)
-This is a simple jupyter notebook, so simply set your path and make sure your depedencies are installed from the requriements.txt. 
+This project is implemented as a Jupyter notebook and was developed and run using Google Colab for GPU support. It is highly recommended to use a similar environment with GPU acceleration if you want to run the code yourself.
 
+To run the project:
+
+1. Ensure you have all the dependencies installed. You can install them using:
+- pip install -r requirements.txt
+
+2. If using Google Colab (recommended):
+- Upload the notebook to Google Colab
+- Enable GPU acceleration in the runtime settings
+- Mount your Google Drive if you're storing the dataset there
+
+3. If running locally:
+- Make sure you have Jupyter Notebook or JupyterLab installed
+- Ensure you have access to a GPU and the necessary CUDA libraries
+
+4. Set your working directory to the project folder
+
+5. Open the Jupyter notebook and run the cells sequentially
+
+Note: Due to the computational intensity of the SAM model and YOLOv8 training, running this on a machine without GPU support may be extremely time-consuming.
+   
 ## Future Work
 - Generally make the project more semantic and nicer code. 
 - Explore more advanced prompting techniques for SAM
