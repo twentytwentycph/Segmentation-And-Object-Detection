@@ -1,5 +1,5 @@
 ## Project Overview
-We explore the application of Metas Segment Anything Model (SAM) to medical imaging, specifically for lung segmentation in X-ray images. We investigate SAMs performance on a dataset of lung X-rays and compare various prompting methods, including manual point selection, bounding boxes derived from ground truth, and dynamically predicted bounding boxes using a custom-trained object detection model.
+We explore the application of Meta's Segment Anything Model (SAM) to medical imaging, specifically for lung segmentation in X-ray images. We investigate SAM's performance on a dataset of lung X-rays and compare various prompting methods, including manual point selection, bounding boxes derived from ground truth, and dynamically predicted bounding boxes using a custom-trained object detection model (YOLOv8).
 
 ## Key Features
 1. Implementation of SAM for lung segmentation in X-ray images
@@ -19,8 +19,8 @@ The project uses a lung X-ray dataset with corresponding segmentation masks. The
 ## Methodology
 1. Data Preprocessing: Normalize and prepare X-ray images and segmentation masks for SAM and YOLOv8.
 2. SAM Implementation: Utilize SAM with various prompting methods for lung segmentation.
-3. YOLOv8 Training: Develop and train a custom object detection model to generate bounding box prompts.
-4. Evaluation: Assess segmentation quality using F1 scores for different prompting methods.
+3. YOLOv8 Training: Train a custom object detection model to generate bounding box prompts.
+4. Evaluation: Observe segmentation quality using F1 scores for different prompting methods.
 
 ## Results
 We compared three different prompting methods:
@@ -70,10 +70,10 @@ To run the project:
 
 5. Open the Jupyter notebook and run the cells sequentially
 
-Note: Due to the computational intensity of the SAM model and YOLOv8 training, running this on a machine without GPU support may be extremely time-consuming.
+Note: Due to the computational intensity of the SAM model and YOLOv8 training, running this on a machine without GPU support may be extremely time consuming.
    
-## Future Work
-- Generally make the project more semantic and improve code quality for better readability and maintainability. 
+## Future own Work
+- Generally make the project more semantic and improve code for better readability and maintainability. 
 - Explore more advanced prompting techniques for SAM
 - Potentially investigate the performance of SAM on other medical imaging tasks
 - Optimize the YOLOv8 model further for lung detection
@@ -84,6 +84,4 @@ Note: Due to the computational intensity of the SAM model and YOLOv8 training, r
 - The creators of the lung X-ray dataset used in this project:
      Bram van Ginneken, Mikkel B. Stegmann, Marco Loog. [Segmentation of anatomical structures in chest radiographs using supervised methods: a      comparative study on a public database](https://doi.org/10.1016/j.media.2005.02.002). *Medical Image Analysis* 10(1): 19-40, 2006
 
-## Credit
-Emil Roer Thorlund | emilthorlund@gmail.dk 
 
