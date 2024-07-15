@@ -1,5 +1,3 @@
-# Segmenting Lung X-ray Images with the Segment Anything Model (SAM)
-
 ## Project Overview
 This project is part of the Advanced Deep Learning (ADL) course at the University of Copenhagen.
 In this project, we explore the application of Metas Segment Anything Model (SAM) to medical imaging, specifically for lung segmentation in X-ray images. We investigate SAMs performance on a dataset of lung X-rays and compare various prompting methods, including manual point selection, bounding boxes derived from ground truth, and dynamically predicted bounding boxes using a custom-trained object detection model.
