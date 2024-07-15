@@ -73,15 +73,17 @@ To run the project:
 Note: Due to the computational intensity of the SAM model and YOLOv8 training, running this on a machine without GPU support may be extremely time-consuming.
    
 ## Future Work
-- Generally make the project more semantic and nicer code. 
+- Generally make the project more semantic and improve code quality for better readability and maintainability. 
 - Explore more advanced prompting techniques for SAM
-- Investigate the performance of SAM on other medical imaging tasks
+- Potentially investigate the performance of SAM on other medical imaging tasks
 - Optimize the YOLOv8 model further for lung detection
 
 ## Acknowledgements
 - Meta AI for the Segment Anything Model
 - Ultralytics for YOLOv8
-- The creators of the lung X-ray dataset used in this project
+- The creators of the lung X-ray dataset used in this project:
+     Bram van Ginneken, Mikkel B. Stegmann, Marco Loog. [Segmentation of anatomical structures in chest radiographs using supervised methods: a      comparative study on a public database](https://doi.org/10.1016/j.media.2005.02.002). *Medical Image Analysis* 10(1): 19-40, 2006
 
 ## Credit
-Emil Roer Thorlund | emilthorlund@gmail.dk
+Emil Roer Thorlund | emilthorlund@gmail.dk 
+
