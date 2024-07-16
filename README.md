@@ -20,7 +20,7 @@ The project uses a lung X-ray dataset with corresponding segmentation masks. The
 1. Data Preprocessing: Normalize and prepare X-ray images and segmentation masks for SAM and YOLOv8.
 2. SAM Implementation: Utilize SAM with various prompting methods for lung segmentation.
 3. YOLOv8 Training: Train a custom object detection model to generate bounding box prompts.
-4. Evaluation: Observe segmentation quality using F1 scores for different prompting methods.
+4. Evaluation: Evaluate segmentation quality using F1 scores for different prompting methods.
 
 ## Results
 We compared three different prompting methods:
